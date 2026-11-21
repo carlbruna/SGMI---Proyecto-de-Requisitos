@@ -1,26 +1,40 @@
 # SGMI---Proyecto-de-Requisitos
-¿Qué es?
+SGMI - Sistema de Gestión y Mantenimiento Industrial
 
-Es una aplicación para el mantenimiento de las máquinas de una fábrica de plástico. Sirve para anotar qué falla tienen, qué repuestos se usan y cuánto cuesta.
-Todo está en un solo archivo que se abre en el navegador del celular o del computador.
+SGMI es una plataforma integral diseñada para optimizar la gestión operativa de los trabajadores y recursos de una empresa. A través de herramientas digitales modernas, el sistema permite supervisar el desempeño del personal, realizar trazabilidad mediante códigos QR, gestionar fallas técnicas, controlar el inventario y analizar métricas de tiempo en tiempo real.
 
-¿Cómo se usa?
+Características Principales
 
-Escanear: apuntas la cámara al código QR pegado en la máquina y la app te muestra su ficha.
-Avisar falla: anotas qué le pasó a la máquina, qué repuesto usaste y cuántas horas trabajaste.
-Historial: ves todas las fallas anteriores, las marcas como resueltas y descargas el informe en Excel.
-Inventario: ves cuántos repuestos quedan y cuáles se están acabando.
-Panel financiero: ves cuánto se ha gastado y qué tan seguido fallan las máquinas.
-Alertas: la app te avisa cuando una falla es grave o cuando queda poco de un repuesto.
-¿Quién puede hacer qué?
++ Gestión de Trabajadores e Historial QR:
 
-Hay tres tipos de usuario:
+Asignación de identificadores únicos mediante códigos QR para cada trabajador o estación de trabajo.
 
-Técnico: registra fallas y consulta el historial.
-Supervisor y Gerencia: además ven los costos, el panel financiero y autorizan repuestos caros (desde $100.000).
+Escaneo rápido para registrar entradas, salidas, asignación de tareas e historial de actividades realizadas.
 
-¿Qué cuida la app?
-Si un repuesto es muy caro, queda esperando autorización antes de usarse.
-Si pasan 10 minutos sin usarla, cierra la sesión sola.
-Guarda un registro de quién hizo qué.
-Los datos guardados en el dispositivo van protegidos.
++ Revisión y Reporte de Fallas:
+
+Registro detallado de incidencias, averías o fallas operativas reportadas por el personal.
+
+Seguimiento del estado de cada falla (Pendiente, En Proceso, Resuelta) y asignación de responsables.
+
++ Gestión de Inventario:
+
+Control de stock de herramientas, repuestos e insumos utilizados en las operaciones diarias.
+
+Alertas de bajo inventario y trazabilidad de qué trabajador utilizó cada recurso.
+
++ Métricas de Tiempo y Rendimiento:
+
+Medición precisa de los tiempos de ejecución de tareas y resolución de fallas.
+
+Panel de indicadores (KPIs) para evaluar la productividad del equipo y detectar cuellos de botella.
+
++ Tecnologías Utilizadas
+
+Frontend: HTML5, CSS3, JavaScript / React / Vue (especificar)
+
+Backend: Node.js / Python / PHP / Java (especificar)
+
+Base de Datos: PostgreSQL / MySQL / MongoDB (especificar)
+
+Generación y Lectura QR: Librerías de escaneo web/móvil
